@@ -1,0 +1,28 @@
+body{
+	background-color: orange;
+}
+
+#wrap{
+	width: 100%;
+}
+
+
+.right{
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 60px;
+	color: white;
+	text-shadow: 2px 2px grey;
+	float: right;
+	margin: 10px 100px 10px 20px;
+}
+
+.left{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	float: left;
+	margin: 10px 20px 10px 50px;
+}
+
+/*
+font-family: 'Cairo', sans-serif;
+*/
