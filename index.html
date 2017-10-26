@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
+	<meta charset="utf-8">
 	<title>GIPHY API</title>
 	<link rel="stylesheet" type="text/css" href="C:\Users\David\Homework6\GIPHY-API\assets\css\style.css">
-	<link href="https://fonts.googleapis.com/css?family=Cairo:600|Fascinate+Inline|Quicksand:500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="C:\Users\David\Homework6\GIPHY-API\assets\css\reset.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Cairo:600|Fascinate+Inline|Quicksand:500" rel="stylesheet">
 </head>
+
 <body>
 
 	<div id="wrap">
 		<div class="right">
-	    	<h1>GIPHY API</h1>
+			<h1>GIPHY API</h1>
 		</div>
-		
+
 		<div class="left">
-				<form id="topic-form">
-		      		<label for="topic-input">Animal Search</label>
-		      		<input type="text" id="topic-input"><br>
-		      		<input id="find-topic" type="submit" value="Search">
-	    		</form>		
+			<form id="topic-form">
+				<label for="inputLabel">Animal Search</label>
+				<input type="text" id="inputAnimal"><br>
+				<input id="searchAnimal" type="submit" value="Search">
+			</form>		
 		</div>
 	</div>
+	<hr>
 
-	
-	<div id="topics-view"></div>  
 
-<script type="text/javascript" src="C:\Users\David\Homework6\GIPHY-API\assets\javascript\giphy.js"></script>
+	<div id="topicButtons"></div>
+	<div id="topicView"></div>  
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="C:\Users\David\Homework6\GIPHY-API\assets\javascript\giphy.js"></script>
 </body>
+
 </html>
